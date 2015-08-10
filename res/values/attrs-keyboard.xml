@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <declare-styleable name="PassCodeKeyboardView">
+        <!-- Default KeyboardView style. -->
+        <attr name="keyboardViewStyle" format="reference" />
+
+        <!-- Image for the key. This image needs to be a StateListDrawable, with the following
+             possible states: normal, pressed, checkable, checkable+pressed, checkable+checked,
+             checkable+checked+pressed. -->
+        <attr name="keyBackground" format="reference" />
+
+        <!-- Size of the text for character keys. -->
+        <attr name="keyTextSize" format="dimension" />
+
+        <!-- Size of the text for custom keys with some text and no icon. -->
+        <attr name="labelTextSize" format="dimension" />
+
+        <!-- Color to use for the label in a key. -->
+        <attr name="keyTextColor" format="color" />
+
+        <!-- Amount to offset the touch Y coordinate by, for bias correction. -->
+        <attr name="verticalCorrection" format="dimension" />
+        
+        <attr name="horizontalGap" format="dimension" />
+        <attr name="verticalGap" format="dimension" />
+
+        <!-- Text shadow color for key label. -->
+        <attr name="shadowColor" format="color" />
+        
+        <!-- Text shadow radius for key label. -->
+        <attr name="shadowRadius" format="float" />
+        
+        <!-- F1 Key. -->
+        <attr name="f1KeyLabel" format="string" />
+        <attr name="f1KeyCodes" format="integer|string" />
+        
+    </declare-styleable>
+    
+    <string name="f1clear">Clear</string>
+    
+    <style name="PassCodeKeyboardView">
+        <item name="android:background">@null</item>
+        <item name="keyBackground">@drawable/btn_keyboard_key_ics</item>
+        <item name="keyTextSize">22sp</item>
+        <item name="keyTextColor">#FFFFFFFF</item>
+        <item name="labelTextSize">14sp</item>
+        <item name="verticalCorrection">-10dip</item>
+        <item name="horizontalGap">0dip</item>
+        <item name="verticalGap">2dip</item>
+        <item name="shadowColor">#BB000000</item>
+        <item name="shadowRadius">2.75</item>
+        <item name="f1KeyLabel">@string/f1clear</item>
+        <item name="f1KeyCodes">-3</item>
+    </style>
+</resources>

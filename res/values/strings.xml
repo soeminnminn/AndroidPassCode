@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android PassCode</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="message_passcode_empty">Please enter the passcode!</string>
+    <string name="message_passcode_not_match">Your passcode does not match!</string>
+    <string name="message_passcode_wrong">Your passcode are wrong!</string>
+    <string name="message_passcode_set">Passcode has bean set.</string>
+    
+    <string name="info_enter_passcode">Passcode</string>
+    <string name="info_enter_passcode_confirm">Confirm Passcode</string>
+    
+</resources>
