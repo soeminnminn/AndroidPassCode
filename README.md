@@ -21,5 +21,5 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
-[1]: https://raw.github.com/soeminnminn/AndroidPassCode/master/Screenshot_1.jpg
-[2]: https://raw.github.com/soeminnminn/AndroidPassCode/master/Screenshot_2.jpg
+[1]: https://raw.github.com/soeminnminn/AndroidPassCode/master/Screenshot_1.png
+[2]: https://raw.github.com/soeminnminn/AndroidPassCode/master/Screenshot_2.png
